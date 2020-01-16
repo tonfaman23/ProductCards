@@ -8,8 +8,25 @@ body{
     margin: auto;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header{
     text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+.Availability{
+    background-color: gray;
+    text-align: center;
+    width: 400px;
+}
+
+.ProductName{
+    border: solid 2px;
+    border-color: lightblue;
 }
