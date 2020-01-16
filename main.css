@@ -8,10 +8,13 @@ body{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-    width: 650px;
+    width: 500px;
+    flex: 1 0 31%;
+    margin: 1%;
 }
+
 
 .Card2{
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -19,15 +22,15 @@ body{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 650px;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
 }
 
 
 img{
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
 }
 
 .Availability{
@@ -37,9 +40,12 @@ img{
 }
 
 .ProductName{
-    border: solid 2px;
+    border: solid 1px;
     border-color: lightblue;
     text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    word-wrap: inherit;
 }
 
 .Date{
@@ -49,8 +55,10 @@ img{
 .Cost{
     font-size: 12px;
     position: relative;
+    font-weight: bold;
 }
 
 .Details{
     font-size: 60%;
+    font-weight: bold;
 }
