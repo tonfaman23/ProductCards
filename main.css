@@ -10,6 +10,7 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 650px;
 }
 
 .Card2{
@@ -20,11 +21,9 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 650px;
 }
 
-header{
-    text-align: center;
-}
 
 img{
     height: 400px;
@@ -34,10 +33,15 @@ img{
 .Availability{
     background-color: gray;
     text-align: center;
-    width: 400px;
+    color: yellow;
 }
 
 .ProductName{
     border: solid 2px;
     border-color: lightblue;
+    text-align: center;
+}
+
+.Date{
+    font-size: 50%;
 }
