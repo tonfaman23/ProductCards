@@ -45,3 +45,12 @@ img{
 .Date{
     font-size: 50%;
 }
+
+.Cost{
+    font-size: 12px;
+    position: relative;
+}
+
+.Details{
+    font-size: 60%;
+}
