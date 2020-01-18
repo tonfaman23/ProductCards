@@ -2,7 +2,7 @@ body{
     background-color: seashell;
 }
 
-.Card{
+.Card0{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
     text-align: center;
@@ -11,8 +11,34 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 500px;
+    height: 775px;
 }
 
+.Card1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 775px;
+}
+
+.Card1:after{
+    content: url(https://raw.githubusercontent.com/morecallan/css102-e6/master/images/soldOut.png);
+    display:block;
+    position: relative;
+    bottom: 655px;
+}
+
+.Card2:after{
+    content: url(https://raw.githubusercontent.com/morecallan/css102-e6/master/images/soldOut.png);
+    display:block;
+    position: relative;
+    bottom: 655px;
+}
 
 .Card2{
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -23,6 +49,31 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     width: 500px;
+    height: 775px;
+}
+
+.Card3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 775px;
+}
+
+.Card4{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 775px;
 }
 
 .MasterCard{
@@ -42,6 +93,7 @@ img{
     text-align: left;
     color: yellow;
 }
+
 
 .ProductName{
     border: solid 1px;
